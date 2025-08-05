@@ -9,6 +9,8 @@ const riddles = [
   { question: "Die ersten Buchstaben aller vorherigen Lösungen ergeben zusammen das Passwort für das letzte Siegel. Wie lautet es?", answer: "makyatk", seal: "seal7.svg" }
 ];
 
+const hint = "Merke dir die Lösung für dieses Siegel."
+
 let solved = JSON.parse(localStorage.getItem("solved") || "[]");
 
 function render() {
@@ -43,7 +45,7 @@ function showDialog(i) {
   const r = riddles[i];
   const dialog = document.createElement("div");
   dialog.className = "dialog";
-  dialog.innerHTML = `<h2>Siegel ${i + 1}</h2><p>${r.question}</p><input type='text' id='answer'><button id='submit'>Antwort prüfen</button>`;
+  dialog.innerHTML = `<h2>Siegel ${i + 1}</h2><p>${r.question}</p><p>${hint}</p><input type='text' id='answer'><button id='submit'>Antwort prüfen</button>`;
   const app = document.getElementById("app");
   app.innerHTML = "";
   app.appendChild(dialog);
