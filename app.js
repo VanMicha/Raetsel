@@ -33,7 +33,7 @@ function render() {
   if (solved.length === riddles.length && solved.every(Boolean)) {
     const solution = document.createElement("div");
     solution.className = "solution";
-    solution.innerText = "Lösungssatz: x y z";
+    solution.innerText = "Lösungssatz: Ein Karaokeabend mit deinem Team";
     app.appendChild(solution);
   }
 
