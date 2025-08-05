@@ -35,7 +35,7 @@ function render() {
   if (solved.length === riddles.length && solved.every(Boolean)) {
     const solution = document.createElement("div");
     solution.className = "solution";
-    solution.innerText = "Lösungssatz: Ein Karaokeabend mit deinem Team";
+    solution.innerText = "Nutze purple um die korrekte Schrift zu finden";
     app.appendChild(solution);
   }
 
