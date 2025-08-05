@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cinzel', serif;
+  background: radial-gradient(circle at center, #2a0a48, #0e0418);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #f4e3ff;
+  text-shadow: 0 0 5px #9b59b6, 0 0 10px #8e44ad;
+}
+
+.card {
+  width: 44%;
+  aspect-ratio: 1/1;
+  margin: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #fff;
+}
+
+.card.locked {
+  filter: grayscale(90%) brightness(0.4);
+  pointer-events: none;
+}
+
+.card.solved {
+  box-shadow: 0 0 20px #2ecc71;
+  transform: scale(1.05);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 420px;
+}
+
+.dialog {
+  background: #1c1230;
+  padding: 1rem;
+  border-radius: 16px;
+  max-width: 90vw;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #999;
+  margin-bottom: 0.5rem;
+  background-color: #2e1e40;
+  color: white;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #8e44ad;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #9b59b6;
+}
