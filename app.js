@@ -9,7 +9,7 @@ const riddles = [
   { question: "Die ersten Buchstaben aller vorherigen Lösungen ergeben zusammen das Passwort für das letzte Siegel. Wie lautet es?", answer: "makyatk", seal: "seal7.svg" }
 ];
 
-const hint = "Merke dir die Lösung für dieses Siegel."
+const hint = "Merke dir den Schlüssel zum öffnen dieses Siegels."
 
 let solved = JSON.parse(localStorage.getItem("solved") || "[]");
 
