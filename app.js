@@ -27,6 +27,16 @@ function render() {
     }
     grid.appendChild(card);
   }
+
+  
+  // Prüfen, ob alle Rätsel gelöst sind
+  if (solved.length === riddles.length && solved.every(Boolean)) {
+    const solution = document.createElement("div");
+    solution.className = "solution";
+    solution.innerText = "Lösungssatz: x y z";
+    app.appendChild(solution);
+  }
+
 }
 
 function showDialog(i) {
