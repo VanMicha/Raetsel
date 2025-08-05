@@ -6,7 +6,7 @@ const riddles = [
   { question: "In Skyrim: Wie heißt der Drachenschrei für 'Feueratem'?", answer: "yol toor shul", seal: "seal4.svg" },
   { question: "Ein Palindrom aus vier Buchstaben, das auch ein Dungeon in Zelda sein könnte?", answer: "anna", seal: "seal5.svg" },
   { question: "Welcher Spieltitel beginnt mit einem Helden namens Geralt?", answer: "the witcher", seal: "seal6.svg" },
-  { question: "Die ersten Buchstaben aller vorherigen Lösungen ergeben zusammen den Schlüssel für das letzte Siegel. Wie lautet es?", answer: "makyatk", seal: "seal7.svg" }
+  { question: "Die ersten Buchstaben aller vorherigen Lösungen ergeben zusammen den Schlüssel für das letzte Siegel. Wie lautet es?", answer: "mzayat", seal: "seal7.svg" }
 ];
 
 const hint = "Merke dir den Schlüssel zum öffnen dieses Siegels."
