@@ -4,9 +4,9 @@ const riddles = [
   { question: "Was ergibt die Summe aus den Zahlen auf einem W20, wenn alle Seiten einmal vorkommen?", answer: "210", seal: "seal2.svg" },
   { question: "Welcher Zauberspruch aus Harry Potter öffnet verschlossene Türen?", answer: "alohomora", seal: "seal3.svg" },
   { question: "In Skyrim: Wie heißt der Drachenschrei für 'Feueratem'?", answer: "yol toor shul", seal: "seal4.svg" },
-  { question: "Wie heißt das sprechende Eulenwesen, das Link in The Legend of Zelda: Link’s Awakening auf dem Game Boy immer wieder Hinweise gibt?", answer: "Kaepora Gaebora", seal: "seal5.svg" },
+  { question: "Wie heißt das sprechende Eulenwesen, das Link in The Legend of Zelda: Link’s Awakening auf dem Game Boy immer wieder Hinweise gibt?", answer: "k", seal: "seal5.svg" },
   { question: "Welcher Spieltitel beginnt mit einem Helden namens Geralt?", answer: "the witcher", seal: "seal6.svg" },
-  { question: "Die ersten Buchstaben aller vorherigen Lösungen ergeben zusammen den Schlüssel für das letzte Siegel. Wie lautet es?", answer: "mzayat", seal: "seal7.svg" }
+  { question: "Die ersten Buchstaben aller vorherigen Lösungen ergeben zusammen den Schlüssel für das letzte Siegel. Wie lautet es?", answer: "mzaykt", seal: "seal7.svg" }
 ];
 
 const hint = "Merke dir den Schlüssel zum öffnen dieses Siegels."
