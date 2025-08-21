@@ -5,7 +5,7 @@ const riddles = [
   { question: "Welcher Zauberspruch aus Harry Potter öffnet verschlossene Türen?", answer: "alohomora", seal: "seal3.svg" },
   { question: "In Skyrim: Wie heißt der Drachenschrei für 'Feueratem'?", answer: "yol toor shul", seal: "seal4.svg" },
   { question: "???Wie heißt das sprechende Eulenwesen, das Link in The Legend of Zelda: Link’s Awakening auf dem Game Boy immer wieder Hinweise gibt?", answer: "k", seal: "seal5.svg" },
-  { question: "Welcher Spieltitel beginnt mit einem Helden namens Geralt?", answer: "the witcher", seal: "seal6.svg" },
+  { question: "Welcher Spieltitel beginnt mit einem Helden namens Geralt?", answer: "The Witcher", seal: "seal6.svg" },
   { question: "Die ersten Buchstaben aller vorherigen Lösungen ergeben zusammen den Schlüssel für das letzte Siegel. Wie lautet es?", answer: "mzaykt", seal: "seal7.svg" }
 ];
 
